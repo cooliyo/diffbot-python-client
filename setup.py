@@ -39,7 +39,7 @@ pats = {re_meta: add_default,
         re_vers: add_version,
         re_doc: add_doc}
 here = os.path.abspath(os.path.dirname(__file__))
-meta_fh = open(os.path.join(here, "pyes/__init__.py"))
+meta_fh = open(os.path.join(here, "__init__.py"))
 try:
     meta = {}
     for line in meta_fh:
